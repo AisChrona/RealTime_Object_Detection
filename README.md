@@ -25,14 +25,17 @@ It allows users to detect objects live from their camera with **high accuracy an
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure (Table Format)
 
-│── frontend.py # Tkinter GUI
-│── object_detection.py # Detection logic using TensorFlow + OpenCV
-│── frozen_inference_graph.pb # Pretrained model weights
-│── ssd_mobilenet_v3.pbtxt # Model configuration file
-│── labels.txt # COCO dataset labels
-│── icons/ # GUI icons
+| File / Folder                  | Description                               |
+|-------------------------------|-------------------------------------------|
+| `frontend.py`                 | Tkinter GUI for the application           |
+| `object_detection.py`         | Detection logic using TensorFlow + OpenCV |
+| `frozen_inference_graph.pb`   | Pretrained SSD MobileNet model weights    |
+| `ssd_mobilenet_v3.pbtxt`      | Model configuration file                  |
+| `labels.txt`                  | COCO dataset labels                       |
+| `icons/`                      | Folder containing GUI icons               |
+
 
 
 ---
