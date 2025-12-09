@@ -61,3 +61,5 @@ Click Start Camera → live detection begins.
 📌 Conclusion
 This project demonstrates a functional, fast, and efficient real-time object detection system, suitable for applications such as surveillance, automation, smart cameras, and AI vision systems.
 
+
+
